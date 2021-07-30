@@ -1,0 +1,26 @@
+/* competetive adv */
+.main_title h1{
+    font-weight: 500;
+    font-size: 40px;
+    color: #000;
+    text-transform: capitalize;
+    text-align: center;
+}
+.adv-sec{
+    margin-bottom: 80px;
+    width: 100%;
+    /* height: auto; */
+    /* background-image: linear-gradient(90deg, rgba(253, 168, 53,.7) 50%, rgba(246, 108, 52,.7) 100% ), url(../images/hand-ai.jpg); */
+    background-image: url(../images/new1.jpg);
+    /* background-color: linear-gradient(90deg, rgba(253, 168, 53,.7) 50%, rgba(246, 108, 52,.7) 100% ); */
+    background-color: rgba(253, 108, 52,1);
+    background-color: #3ccabb;
+    /* background-color: orangered; */
+    background-blend-mode: luminosity;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    /* overflow: scroll; */
+}
+.adv-sec h3, .adv-sec p{
+    color: #fafafa;
+}

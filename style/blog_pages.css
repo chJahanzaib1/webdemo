@@ -1,0 +1,17 @@
+
+.heading_div {
+    background-color: white;
+    color: black;
+    height:auto;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 5vh;
+    font-family: "Lucida Handwriting";
+
+
+
+}
+.blog_text{
+    line-height:1.8em;
+    font-size:1.2em;
+}

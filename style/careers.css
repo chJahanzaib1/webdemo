@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.bg-color {
+
+    background-color: #1CB8C7;
+
+}
+
+.logo_color {
+    background-color: #FEA835;
+}
+
+
+
+.box1 {
+    background-color:  #129e8e;
+    height: 400px;
+    width: 400px;
+    color: white;
+    text-align: center;
+    
+}
+
+
+
+.box2 {
+    background-color:  #1f746a;
+    height: 400px;
+    width: 400px;
+    color: white;
+    text-align: center;
+}
+
+.box3 {
+    background-color: black;
+    height: 400px;
+    width: 400px;
+    color: white;
+    text-align: center;
+}
+
+.c-box{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 3.5rem;
+    overflow: hidden;
+}
+
+
+
+.c-box p {
+    /* transform: translateY(250px); */
+    margin-top: 260px;
+    overflow: hidden;
+    /* display: none; */
+}
+
+.box1:hover > .box1-p{
+   display: ruby;
+   transform: translateY(-245px);
+   transition: 1s ease;
+   
+}
+.box1:hover> .bh2{
+    color:#FEA835;
+
+}
+.box2:hover > .box2-p{
+    /* display: block; */
+    transform: translateY(-245px);
+    transition: 1s ease;
+    
+ }
+ .box2:hover> .bh2{
+    color:#FEA835;
+
+}
+
+ .box3:hover > .box3-p{
+    /* display: block; */
+    transform: translateY(-230px);
+    transition: 1s ease;
+ }
+ .box3:hover> .bh2{
+    color:#FEA835;
+
+}
+/* .box1:hover, .box2:hover, .box3:hover  {
+    color: rgb(255, 170, 54);
+
+} */
+
+.bh2{
+    transform: translateY(70px);
+}
+
+
+.c-box:hover > .bh2{
+    transform: translateY(0px);
+}
+
+.box-p :hover {
+    transform: translateY(20px);
+    transition: 1s ease;
+
+}
+
+
+.row-2{
+    display: flex;
+    flex-wrap: nowrap !important;
+    justify-content: space-around;
+}
+
+@media(max-width: 998px) {
+    .row-2{
+        flex-wrap: wrap !important ;
+    }
+
+    .container_foto h3{
+        font-size: 16px;
+        
+    } 
+
+    .container_foto h4 {
+        font-size: 16px;
+        line-height: 1.2rem;
+      }
+
+      .cr-bg{
+        height: 100%  !important;
+        width: 300px  !important;
+    }
+/* 
+    .container_foto:hover h3 {
+        display: none;
+      } */
+
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1440px !important;
+        padding-left: 0%;
+    }
+}
+
+.container_foto h3{
+    font-weight: 350;
+    color: #fff;
+    font-size: 16px;
+    
+} 
+
+.ca-title{
+    font-family: "Poppins", sans-serif !important;
+    font-weight: bolder;
+    color: #F66C34;
+    margin-top: 10rem;
+    margin-bottom: 6rem;
+}
+
+
+.cr-bg{
+    height: 100%;
+    width: 600px;
+}
+
+
+.job-card{
+    height: 42rem;
+}
